@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'gtwalsheimpro_condensedmedium';
+  src: url(./gtwalsheimpro_condensedmedium.otf) format('otf'),
+       url(./gtwalsheimpro_condensedmedium.woff) format('woff'),
+       url(./gtwalsheimpro_condensedmedium.woff2) format('woff2');
+}

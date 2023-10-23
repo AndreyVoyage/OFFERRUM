@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+body {
+    overflow: unset;
+  }
+  
+  body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-style: normal;
+  
+    background: #ffffff;
+  }
+
+.stop-scroll {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1286px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header, .main-bg, .about {
+    background-color:rgba(29, 37, 50, 1);
+} 
+
+
+.header__link, .main-content__subtitle {
+    font-family: 'Inter-Regular';
+}
+
+p, .modal-content__title, .modal-content__subtitle,.header__link, .header__list, .header__item-button, .main-content__title, .main-content__subtitle, .main-content__button, .about__title, .about__item , .about__list {
+    margin: 0;
+    padding: 0;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__item, .about__item {
+    list-style: none;
+}
+
+.header__list, .about__list {
+    padding-left: 0;
+}
+
+.header__item-button, .main-content__button {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+
+

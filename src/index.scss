@@ -1,0 +1,10 @@
+@import 'libs/normalize';
+@import 'style/fonts';
+@import 'style/var';
+@import 'style/style';
+
+//Blocks
+@import './style/blocks/header';
+@import './style/blocks/main';
+@import './style/blocks/about';
+@import './style/blocks/modal';
